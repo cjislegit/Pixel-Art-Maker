@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #3C7A89, #2E4756 , #16262E);
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+button{
+    background: transparent;
+    border-color: black;
+}
+
+input[type=number] {
+    width: 6em;
+    background: transparent;
+    border-color: black;
+}
+
+input[type=color] {
+    background: transparent;
+    border-color: black;
+}
+
+
